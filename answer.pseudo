@@ -1,0 +1,17 @@
+var MIN = 6,
+	MAX = 15;
+
+function play(name) {
+	var num;
+	num = MIN + Math.floor(Math.random() * (1 + MAX - MIN));
+	return name + " " + num;
+}
+
+/*
+ * Test script
+ * 
+ * for (var i = 100; i >= 0; i--) {
+ * 	   console.log(play('Sameer'));
+ * }
+ *
+ */
